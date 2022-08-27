@@ -1,6 +1,6 @@
 function isPalindrome(word) {
-  let array = word.split('').reverse().join('')
-  if (array ===word){
+  let reversedWord = word.split('').reverse().join('')
+  if (reversedWord === word){
     return true
   }
   else {
